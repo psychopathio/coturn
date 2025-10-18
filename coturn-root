@@ -1,0 +1,8 @@
+Run corun at system boot using root
+
+nano /lib/systemd/system/coturn.service
+
+User=root
+Group=root
+
+Run this command: systemctl daemon-reload
